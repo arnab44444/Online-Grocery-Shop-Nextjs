@@ -10,7 +10,7 @@ A modern and responsive grocery shopping web application built with **Next.js**,
 
 ### 🌐 Live Demo
 
-  Check out the live website here: [Grocery Shop Live]([https://online-grocery-shop-nextjs.vercel.app])
+  Check out the live website here: [Grocery Shop Live](https://online-grocery-shop-nextjs.vercel.app)
 
 ---
 

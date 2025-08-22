@@ -85,24 +85,3 @@ NEXTAUTH_URL=http://localhost:3000
 NEXTAUTH_SECRET=your_secret_key
 # Add any other keys like API endpoints
 ```
-
----
-
-## 📄 License
-
-This project is licensed under the **MIT License**.
-See [LICENSE](LICENSE) for details.
-
----
-
-Made with ❤️ by **Anik Chakraborty**
-
-```
-
----
-
-If you want, I can also make a **version with a clean table of contents, feature highlights, and badges for technologies** so it looks really professional on GitHub.  
-
-Do you want me to make that enhanced version too?
-```
-# Online-Grocery-Shop-Nextjs

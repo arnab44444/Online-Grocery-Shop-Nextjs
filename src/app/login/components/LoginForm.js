@@ -45,7 +45,7 @@ export default function LoginForm() {
         placeholder="Email Address"
         name="email"
         required
-        className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-500 focus:scale-[1.02] transition"
+        className="w-full  text-black px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:scale-[1.02] transition"
         whileFocus={{ scale: 1.02 }}
       />
 
@@ -55,7 +55,7 @@ export default function LoginForm() {
         placeholder="Password"
         name="password"
         required
-        className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-500 focus:scale-[1.02] transition"
+        className="w-full px-4 py-3  text-black rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:scale-[1.02] transition"
         whileFocus={{ scale: 1.02 }}
       />
 
@@ -63,7 +63,7 @@ export default function LoginForm() {
       <motion.button
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.95 }}
-        className="w-full bg-green-600 hover:bg-green-700 text-white py-3 rounded-lg shadow-lg font-semibold transition"
+        className="w-full bg-blue-600 hover:bg-blue-700 text-white py-3 rounded-lg shadow-lg font-semibold transition"
       >
         Login
       </motion.button>

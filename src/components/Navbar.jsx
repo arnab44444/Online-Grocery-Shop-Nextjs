@@ -57,7 +57,7 @@ export default function Navbar() {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content bg-blue-100 rounded-box z-[999] mt-3 w-52 p-2 shadow"
+            className="menu menu-sm dropdown-content bg-blue-100  text-black rounded-box z-[999] mt-3 w-52 p-2 shadow"
           >
             {navMenu()}
           </ul>
@@ -128,7 +128,7 @@ export default function Navbar() {
                   <ul className="flex flex-col p-2">
                     <motion.li
                       whileHover={{ scale: 1.05, backgroundColor: "#eff6ff" }}
-                      className="px-4 py-2 rounded-md cursor-pointer text-blue-900"
+                      className="px-4 py-2  rounded-md cursor-pointer text-blue-900"
                     >
                       <Link href="/dashboard">Dashboard</Link>
                     </motion.li>

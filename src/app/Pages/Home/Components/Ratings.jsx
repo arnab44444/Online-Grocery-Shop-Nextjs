@@ -18,7 +18,7 @@ export default function Ratings() {
       label: "Fresh Products",
       value: 2500,
       suffix: "+",
-      icon: <FaAppleAlt className="w-10 h-10 text-green-600" />,
+      icon: <FaAppleAlt className="w-10 h-10 text-blue-600" />,
     },
     {
       id: 3,
@@ -37,7 +37,7 @@ export default function Ratings() {
   ];
 
   return (
-    <section className="py-20 bg-gradient-to-r from-green-50 via-white to-green-100">
+    <section className="py-20 bg-gradient-to-r from-blue-50 via-white to-blue-100">
       <div className="max-w-6xl mx-auto px-6 text-center">
         {/* Heading */}
         <motion.h2

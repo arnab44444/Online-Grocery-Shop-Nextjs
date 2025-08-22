@@ -31,7 +31,7 @@ export default function SocialLogin() {
         className="flex items-center justify-center gap-3 w-full border border-gray-300 py-3 rounded-lg shadow-sm hover:bg-gray-100 transition"
       >
         <FcGoogle size={22} />
-        <span className="font-medium">Continue with Google</span>
+        <span className="font-medium  text-black">Continue with Google</span>
       </motion.button>
 
       <motion.button
@@ -41,7 +41,7 @@ export default function SocialLogin() {
         className="flex items-center justify-center gap-3 w-full border border-gray-300 py-3 rounded-lg shadow-sm hover:bg-gray-100 transition"
       >
         <FaGithub size={22} className="text-gray-800" />
-        <span className="font-medium">Continue with GitHub</span>
+        <span className="font-medium text-black">Continue with GitHub</span>
       </motion.button>
     </div>
   );

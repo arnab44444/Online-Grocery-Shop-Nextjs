@@ -10,7 +10,7 @@ import SocialLogin from "./components/SocialLogin";
 
 export default function LoginPage() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-green-100 via-green-200 to-green-300 p-6">
+    <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-blue-100 via-blue-200 to-blue-300 p-6">
       <motion.div
         initial={{ opacity: 0, y: 60 }}
         animate={{ opacity: 1, y: 0 }}
@@ -18,7 +18,7 @@ export default function LoginPage() {
         className="bg-white shadow-2xl rounded-2xl flex flex-col md:flex-row w-full max-w-4xl overflow-hidden"
       >
         {/* Left Side: Lottie Animation */}
-        <div className="hidden md:flex w-1/2 bg-green-50 items-center justify-center p-6">
+        <div className="hidden md:flex w-1/2 bg-blue-50 items-center justify-center p-6">
           <Lottie animationData={loginAnimation} loop className="w-80 h-80" />
         </div>
 
@@ -28,7 +28,7 @@ export default function LoginPage() {
             initial={{ opacity: 0, x: -40 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
-            className="text-3xl font-bold text-green-900 mb-6 text-center md:text-left"
+            className="text-3xl font-bold text-blue-900 mb-6 text-center md:text-left"
           >
             Welcome Back
           </motion.h2>
@@ -50,7 +50,7 @@ export default function LoginPage() {
             Don’t have an account?{" "}
             <Link
               href="/register"
-              className="text-green-700 font-semibold hover:underline"
+              className="text-blue-700 font-semibold hover:underline"
             >
               Register
             </Link>

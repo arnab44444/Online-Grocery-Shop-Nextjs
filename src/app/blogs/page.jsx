@@ -135,7 +135,7 @@ export default function BlogsPage() {
                 alt={selectedBlog.title}
                 className="h-56 w-full object-cover rounded-lg"
               />
-              <h2 className="text-2xl font-bold text-green-900 mt-4">
+              <h2 className="text-2xl font-bold text-blue-900 mt-4">
                 {selectedBlog.title}
               </h2>
               <p className="text-sm text-gray-500 mb-2">

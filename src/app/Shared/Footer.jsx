@@ -42,8 +42,8 @@ const Footer = () => {
             transition={{ duration: 0.6 }}
             className="flex items-center gap-2 mb-2"
           >
-            <FaBasketShopping className="w-8 h-8 text-green-900" />
-            <h1 className="text-2xl font-bold text-green-950">Grocery Shop</h1>
+            <FaBasketShopping className="w-8 h-8 text-blue-900" />
+            <h1 className="text-2xl font-bold text-blue-950">Grocery Shop</h1>
           </motion.div>
           <p className="text-sm text-gray-800">
             Fresh groceries delivered to your doorstep. Eat healthy, shop smart, and enjoy premium quality every day.
@@ -52,18 +52,18 @@ const Footer = () => {
 
         {/* Quick Links */}
         <div>
-          <h2 className="font-semibold text-lg mb-4 text-green-950">Quick Links</h2>
+          <h2 className="font-semibold text-lg mb-4 text-blue-950">Quick Links</h2>
           <ul className="space-y-2 text-sm text-gray-800">
-            <li><Link href="/" className="hover:text-green-700 transition-colors">Home</Link></li>
-            <li><Link href="/products" className="hover:text-green-700 transition-colors">Products</Link></li>
-            <li><Link href="/blogs" className="hover:text-green-700 transition-colors">Blogs</Link></li>
-            <li><Link href="/contactUs" className="hover:text-green-700 transition-colors">Contact Us</Link></li>
+            <li><Link href="/" className="hover:text-blue-700 transition-colors">Home</Link></li>
+            <li><Link href="/products" className="hover:text-blue-700 transition-colors">Products</Link></li>
+            <li><Link href="/blogs" className="hover:text-blue-700 transition-colors">Blogs</Link></li>
+            <li><Link href="/contactUs" className="hover:text-blue-700 transition-colors">Contact Us</Link></li>
           </ul>
         </div>
 
         {/* Customer Support */}
         <div>
-          <h2 className="font-semibold text-lg mb-4 text-green-950">Customer Support</h2>
+          <h2 className="font-semibold text-lg mb-4 text-blue-950">Customer Support</h2>
           <ul className="space-y-2 text-sm text-gray-800">
             <li>
               <SupportModal
@@ -98,7 +98,7 @@ const Footer = () => {
 
         {/* Socials */}
         <div>
-          <h2 className="font-semibold text-lg mb-4 text-green-950">Follow Us</h2>
+          <h2 className="font-semibold text-lg mb-4 text-blue-950">Follow Us</h2>
           <div className="flex gap-4 text-2xl">
             {socialLinks.map((social, index) => {
               const Icon = social.icon;
@@ -110,7 +110,7 @@ const Footer = () => {
                   rel="noopener noreferrer"
                   whileHover={{ scale: 1.3, color: social.color }}
                   transition={{ type: "spring", stiffness: 300 }}
-                  className="cursor-pointer text-green-900"
+                  className="cursor-pointer text-blue-900"
                 >
                   <Icon />
                 </motion.a>

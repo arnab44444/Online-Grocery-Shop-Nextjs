@@ -20,7 +20,7 @@ export default function RegisterForm() {
         type="text"
         placeholder="Full Name"
         name="name"
-        className="w-full px-4 py-3 rounded-lg border border-green-300 focus:ring-2 focus:ring-green-500 outline-none"
+        className="w-full  text-black px-4 py-3 rounded-lg border border-blue-300 focus:ring-2 focus:ring-blue-500 outline-none"
         required
       />
       <motion.input
@@ -28,7 +28,7 @@ export default function RegisterForm() {
         type="email"
         name="email"
         placeholder="Email Address"
-        className="w-full px-4 py-3 rounded-lg border border-green-300 focus:ring-2 focus:ring-green-500 outline-none"
+        className="w-full  text-black px-4 py-3 rounded-lg border border-blue-300 focus:ring-2 focus:ring-blue-500 outline-none"
         required
       />
       <motion.input
@@ -36,7 +36,7 @@ export default function RegisterForm() {
         type="password"
         name="password"
         placeholder="Password"
-        className="w-full px-4 py-3 rounded-lg border border-green-300 focus:ring-2 focus:ring-green-500 outline-none"
+        className="w-full  text-black px-4 py-3 rounded-lg border border-blue-300 focus:ring-2 focus:ring-blue-500 outline-none"
         required
       />
 
@@ -44,7 +44,7 @@ export default function RegisterForm() {
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.95 }}
         type="submit"
-        className="w-full bg-green-600 text-white py-3 rounded-lg font-semibold shadow-md hover:bg-green-700 transition"
+        className="w-full  text-black bg-blue-600 text-white py-3 rounded-lg font-semibold shadow-md hover:bg-blue-700 transition"
       >
         Register
       </motion.button>

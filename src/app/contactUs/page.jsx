@@ -34,7 +34,7 @@ export default function ContactUs() {
   };
 
   return (
-    <section className="min-h-screen flex flex-col justify-center items-center bg-gradient-to-b from-green-50 to-white px-4 py-12">
+    <section className="min-h-screen flex flex-col justify-center items-center bg-gradient-to-b from-blue-50 to-white px-4 py-12">
       {/* Heading */}
       <motion.h2
         initial={{ y: -40, opacity: 0 }}
@@ -112,7 +112,7 @@ export default function ContactUs() {
             name="message"
             placeholder="Your Message"
             required
-            className="w-full text-black px-4 py-3 border rounded-lg focus:ring-2 focus:ring-green-500 outline-none"
+            className="w-full text-black px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 outline-none"
           ></motion.textarea>
 
           <motion.button
@@ -126,7 +126,7 @@ export default function ContactUs() {
           </motion.button>
 
           {isSent && (
-            <p className="text-green-600 text-center font-semibold mt-2">
+            <p className="text-blue-600 text-center font-semibold mt-2">
               Your message has been sent successfully!
             </p>
           )}
